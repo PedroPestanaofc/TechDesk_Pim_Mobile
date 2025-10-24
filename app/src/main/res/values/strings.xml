@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">TechDesk</string>
+
+    <string-array name="categorias_suporte">
+        <item>Hardware</item>
+        <item>Software</item>
+        <item>Rede</item>
+        <item>Outros</item>
+    </string-array>
+
+    <string-array name="niveis_prioridade">
+        <item>Baixa</item>
+        <item>Média</item>
+        <item>Alta</item>
+        <item>Urgente</item>
+    </string-array>
+
+    <string-array name="status_chamados">
+        <item>Todos</item>
+        <item>Aberto</item>
+        <item>Em andamento</item>
+        <item>Concluído</item>
+        <item>Cancelado</item>
+    </string-array>
+
+    <string name="info_icon_desc">Ícone de informação</string>
+
+
+    <string name="termos_privacidade">
+Ao utilizar este aplicativo, você concorda com os Termos de Serviço e a Política de Privacidade.\n
+\n
+1. Coleta de Dados\n
+Coletamos informações básicas como nome, e-mail e dados de uso do app.\n
+\n
+2. Uso de Dados\n
+Os dados coletados serão usados apenas para autenticação e melhoria do serviço.\n
+\n
+3. Compartilhamento de Dados\n
+Não compartilhamos seus dados sem seu consentimento.\n
+\n
+4. Alterações\n
+Podemos atualizar estes termos periodicamente.\n
+\n
+Para mais informações, visite nosso site: www.seusite.com/termos
+</string>
+
+</resources>
