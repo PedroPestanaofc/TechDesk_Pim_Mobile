@@ -55,14 +55,15 @@
         android:layout_height="50dp"
         android:background="@drawable/borda"
         android:hint="   Ex: Computador não liga"
+        android:padding="12dp"
         android:inputType="text"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.261" />
+        app:layout_constraintVertical_bias="0.257" />
 
     <TextView
         android:id="@+id/textView11"
@@ -79,10 +80,12 @@
         app:layout_constraintVertical_bias="0.21" />
 
     <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
         android:layout_width="295dp"
         android:layout_height="129dp"
         android:background="@drawable/borda"
         android:hint="   Descreva o problema detalhadamente"
+        android:padding="12dp"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -106,7 +109,7 @@
         app:layout_constraintVertical_bias="0.48" />
 
     <Spinner
-        android:id="@+id/spinnerPrioridade"
+        android:id="@+id/spinnerCategoria"
         android:layout_width="295dp"
         android:layout_height="50dp"
         android:background="@drawable/borda"
@@ -143,25 +146,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/txtAnexo"
-        android:layout_width="205dp"
-        android:layout_height="37dp"
-        android:layout_gravity="center_horizontal"
-        android:clickable="true"
-        android:focusable="true"
-        android:fontFamily="sans-serif-medium"
-        android:padding="8dp"
-        android:text="📎 Clique para inserir anexo"
-        android:textColor="@color/blue"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.206"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.747" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

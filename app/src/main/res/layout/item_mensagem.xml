@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Container da mensagem -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#EDEDED"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="start">
+
+        <!-- Autor da mensagem -->
+        <TextView
+            android:id="@+id/txtAutor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autor"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#333333" />
+
+        <!-- Texto da mensagem -->
+        <TextView
+            android:id="@+id/txtMensagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Texto da mensagem"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <!-- Data da mensagem -->
+        <TextView
+            android:id="@+id/txtData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00/00/0000 00:00"
+            android:textSize="12sp"
+            android:textColor="#666666"
+            android:layout_marginTop="6dp"
+            android:layout_gravity="end" />
+    </LinearLayout>
+
+</LinearLayout>

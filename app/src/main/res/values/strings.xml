@@ -21,27 +21,11 @@
         <item>Em andamento</item>
         <item>Concluído</item>
         <item>Cancelado</item>
+        <item>Fechado</item>
+
     </string-array>
 
     <string name="info_icon_desc">Ícone de informação</string>
 
-
-    <string name="termos_privacidade">
-Ao utilizar este aplicativo, você concorda com os Termos de Serviço e a Política de Privacidade.\n
-\n
-1. Coleta de Dados\n
-Coletamos informações básicas como nome, e-mail e dados de uso do app.\n
-\n
-2. Uso de Dados\n
-Os dados coletados serão usados apenas para autenticação e melhoria do serviço.\n
-\n
-3. Compartilhamento de Dados\n
-Não compartilhamos seus dados sem seu consentimento.\n
-\n
-4. Alterações\n
-Podemos atualizar estes termos periodicamente.\n
-\n
-Para mais informações, visite nosso site: www.seusite.com/termos
-</string>
 
 </resources>

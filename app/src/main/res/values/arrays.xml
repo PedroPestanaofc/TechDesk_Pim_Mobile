@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias_suporte_nomes">
+        <item>Hardware</item>
+        <item>Software</item>
+        <item>Rede</item>
+        <item>Outros</item>
+    </string-array>
+
+    <integer-array name="categorias_suporte_ids">
+        <item>3</item> <!-- Hardware -->
+        <item>4</item> <!-- Software -->
+        <item>5</item> <!-- Rede -->
+        <item>6</item> <!-- Outros -->
+    </integer-array>
+</resources>
+

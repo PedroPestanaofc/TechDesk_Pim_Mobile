@@ -17,36 +17,6 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button11"
-        android:layout_width="284dp"
-        android:layout_height="58dp"
-        android:backgroundTint="#1d6bec"
-        android:text="Abrir Chamados"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47" />
-
-    <Button
-        android:id="@+id/button17"
-        android:layout_width="284dp"
-        android:layout_height="55dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="  Falar com a IA - TechBot"
-        android:textAlignment="center"
-        android:textColor="#1d6bec"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.705"
-        app:strokeColor="#D9D9D9"
-        app:strokeWidth="2dp" />
-
-    <Button
         android:id="@+id/button12"
         android:layout_width="284dp"
         android:layout_height="55dp"
@@ -58,9 +28,22 @@
         app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.589"
+        app:layout_constraintVertical_bias="0.606"
         app:strokeColor="#D9D9D9"
         app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="284dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#1d6bec"
+        android:text="Abrir Chamados"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.487" />
 
     <Button
         android:id="@+id/button15"
@@ -103,14 +86,14 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="91dp"
-        android:layout_height="65dp"
-        android:layout_marginEnd="16dp"
+        android:layout_width="51dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.066"
-        app:srcCompat="@drawable/person" />
+        app:layout_constraintVertical_bias="0.08"
+        app:srcCompat="@drawable/personblue" />
 
     <ImageView
         android:id="@+id/imageView3"

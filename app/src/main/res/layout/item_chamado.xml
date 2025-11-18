@@ -1,18 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:padding="8dp"
-    android:gravity="center_vertical">
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground">
 
+    <!-- ID do chamado -->
     <TextView
         android:id="@+id/tvId"
         android:layout_width="40dp"
         android:layout_height="wrap_content"
         android:text="1"
         android:textSize="14sp"
-        android:gravity="center" />
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000" />
 
+    <!-- Título do chamado -->
     <TextView
         android:id="@+id/tvTitulo"
         android:layout_width="0dp"
@@ -21,8 +27,12 @@
         android:text="Erro no login"
         android:textSize="14sp"
         android:ellipsize="end"
-        android:singleLine="true" />
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp" />
 
+    <!-- Categoria -->
     <TextView
         android:id="@+id/tvCategoria"
         android:layout_width="0dp"
@@ -30,8 +40,10 @@
         android:layout_weight="1"
         android:text="Suporte"
         android:textSize="14sp"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textColor="#000000" />
 
+    <!-- Prioridade -->
     <TextView
         android:id="@+id/tvPrioridade"
         android:layout_width="0dp"
@@ -39,8 +51,10 @@
         android:layout_weight="1"
         android:text="Alta"
         android:textSize="14sp"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textColor="#000000" />
 
+    <!-- Status -->
     <TextView
         android:id="@+id/tvStatus"
         android:layout_width="0dp"
@@ -48,5 +62,8 @@
         android:layout_weight="1"
         android:text="Aberto"
         android:textSize="14sp"
-        android:gravity="center" />
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#4CAF50" /> <!-- verde por padrão para 'Aberto' -->
+
 </LinearLayout>

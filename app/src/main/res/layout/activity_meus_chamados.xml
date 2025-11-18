@@ -7,25 +7,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar6"
-        android:layout_width="414dp"
-        android:layout_height="20dp"
-        android:background="#1d6bec"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <!-- Cabeçalho da Tabela -->
-
-    <!-- ListView para exibir os chamados -->
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Histórico de Chamados"
+        android:text="Lista de Chamados"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -127,20 +113,18 @@
 
     </LinearLayout>
 
-    <ListView
-        android:id="@+id/listView"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerChamados"
         android:layout_width="334dp"
         android:layout_height="455dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
-        android:divider="@android:color/darker_gray"
-        android:dividerHeight="1dp"
-        app:layout_constraintBottom_toTopOf="@id/toolbar6"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/headerTabela"
-        app:layout_constraintVertical_bias="0.018" />
+        tools:listitem="@layout/item_chamado" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

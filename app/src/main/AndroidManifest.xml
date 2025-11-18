@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Permissão de internet para o Google Sign-In -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -14,49 +13,155 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TechDeskMobile">
-
-        <!-- Atividade do Google Sign-In -->
         <activity
-            android:name="com.google.android.gms.auth.api.signin.GoogleSignInActivity"
-            android:exported="false" />
-
-        <activity
-            android:name=".PerfilConfig"
+            android:name=".view.MensagemAdapter"
             android:exported="false" />
         <activity
-            android:name=".DetalhesChamadoActivity"
+            android:name=".view.HistoricoChamadoActivity"
             android:exported="false" />
         <activity
-            android:name=".MeusChamados"
+            android:name=".view.AdicionarHistoricoActivity"
             android:exported="false" />
         <activity
-            android:name=".TelaIA"
+            android:name=".controller.HistoricoController"
             android:exported="false" />
         <activity
-            android:name=".TelaPrincipal"
+            android:name=".view.HistoricoAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".model.HistoricoChamado"
+            android:exported="false" />
+        <activity
+            android:name=".view.ChamadoAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".controller.MensagemController"
+            android:exported="false" />
+        <activity
+            android:name=".model.MensagemChamado"
+            android:exported="false" />
+        <activity
+            android:name=".model.LoginRequest"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityMensagem"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMensagem"
+            android:exported="false" />
+        <activity
+            android:name=".view.AcitivityMensagemAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".model.Mensagem"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityDetalhesChamados"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityTermosPrivacidade"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityTelaUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityTelaPrincipal"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityTelaEntrarTD"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityTelaCriarContaTD"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityTelaAbrirChamados"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivitySplash"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityPerfil"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityMeusChamados"
+            android:exported="false" />
+        <activity
+            android:name=".view.ActivityLoginSQL"
+            android:exported="false" />
+        <activity
+            android:name=".util.Utils"
+            android:exported="false" />
+        <activity
+            android:name=".util.SessionManager"
+            android:exported="false" />
+        <activity
+            android:name=".util.Constants"
+            android:exported="false" />
+        <activity
+            android:name=".api.ApiService"
+            android:exported="false" />
+        <activity
+            android:name=".api.ApiClient"
+            android:exported="false" />
+        <activity
+            android:name=".model.Session"
+            android:exported="false" />
+        <activity
+            android:name=".model.ApiResponse"
+            android:exported="false" />
+        <activity
+            android:name=".model.Chamado"
+            android:exported="false" />
+        <activity
+            android:name=".model.Usuario"
+            android:exported="false" />
+        <activity
+            android:name=".controller.PerfilController"
+            android:exported="false" />
+        <activity
+            android:name=".controller.ChamadoController"
+            android:exported="false" />
+        <activity
+            android:name=".controller.UsuarioController"
+            android:exported="false" />
+        <activity
+            android:name=".controller.LoginController"
+            android:exported="false" />
+        <activity
+            android:name=".View.Perfil"
+            android:exported="false" />
+        <activity
+            android:name=".View.DetalhesChamadoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".View.ChamadoAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".View.TelaPrincipal"
             android:exported="false" />
         <activity
             android:name=".View.TelaAbrirChamados"
             android:exported="false" />
         <activity
-            android:name=".TermosPrivacidade"
+            android:name=".View.TermosPrivacidade"
             android:exported="true" />
         <activity
-            android:name=".TelaCriarContaTD"
-            android:exported="false" />
+            android:name=".View.TelaCriarContaTD"
+            android:exported="true" />
         <activity
             android:name=".View.TelaEntrarTD"
-            android:exported="false" /> <!-- MainActivity: Splash + botão + Handler -->
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- Segunda tela -->
+        </activity>
         <activity
-            android:name=".TelaLoginCad"
+            android:name=".View.TelaLoginCad"
             android:exported="true" />
     </application>
 
